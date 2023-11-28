@@ -21,36 +21,40 @@
         <div class="paragraph">
           <p>
             This is not a real online service! You know you need something like
-            this in your life to help you realize your deepest dreags.
-            <span>Sign up now to get started.</span>
+            this in your life to help you realize your deepest dreams.
+            <span>Sign up <span class="italic">now</span> to get started.</span>
           </p>
-          <p>You know you want to.</p>
+          <p>You <span class="italic">know</span> you want to.</p>
         </div>
         <div class="form">
-          <span>Let's do this!</span>
+          <p>Let's do this!</p>
           <form action="">
-            <ul>
-              <li>
+            <ul class="row">
+              <li class="column">
                 <label for="first-name">FIRST NAME</label>
                 <input type="text" id="first-name" name="first-name" />
               </li>
-              <li>
+              <li class="column">
                 <label for="last-name">LAST NAME</label>
                 <input type="text" id="last-name" name="last-name" />
               </li>
-              <li>
+            </ul>
+            <ul class="row">
+              <li class="column">
                 <label for="mail">EMAIL</label>
                 <input type="email" id="mail" name="user-email" />
               </li>
-              <li>
+              <li class="column">
                 <label for="phone-number">PHONE NUMBER</label>
                 <input type="tel" id="phone-number" name="user-phone" />
               </li>
-              <li>
+            </ul>
+            <ul class="row">
+              <li class="column">
                 <label for="password">PASSWORD</label>
                 <input type="password" id="password" name="user-password" />
               </li>
-              <li>
+              <li class="column">
                 <label for="confirm-password">CONFIRM PASSWORD</label>
                 <input
                   type="password"
@@ -61,7 +65,7 @@
             </ul>
           </form>
         </div>
-        <div class="button">
+        <div class="button-div">
           <button>Create Account</button>
           <p>Already have an account? <span>Log in</span></p>
         </div>
