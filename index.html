@@ -32,17 +32,17 @@
             <ul class="row">
               <li class="column">
                 <label for="first-name">FIRST NAME</label>
-                <input type="text" id="first-name" name="first-name" />
+                <input type="text" id="first-name" name="first-name" required />
               </li>
               <li class="column">
                 <label for="last-name">LAST NAME</label>
-                <input type="text" id="last-name" name="last-name" />
+                <input type="text" id="last-name" name="last-name" required />
               </li>
             </ul>
             <ul class="row">
               <li class="column">
                 <label for="mail">EMAIL</label>
-                <input type="email" id="mail" name="user-email" />
+                <input type="email" id="mail" name="user-email" required />
               </li>
               <li class="column">
                 <label for="phone-number">PHONE NUMBER</label>
@@ -52,7 +52,12 @@
             <ul class="row">
               <li class="column">
                 <label for="password">PASSWORD</label>
-                <input type="password" id="password" name="user-password" />
+                <input
+                  type="password"
+                  id="password"
+                  name="user-password"
+                  required
+                />
               </li>
               <li class="column">
                 <label for="confirm-password">CONFIRM PASSWORD</label>
@@ -60,6 +65,7 @@
                   type="password"
                   id="confirm-password"
                   name="user-confirm-password"
+                  required
                 />
               </li>
             </ul>

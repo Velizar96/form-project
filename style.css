@@ -120,3 +120,42 @@ label {
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(81, 81, 81);
 }
+
+.button-div button {
+  margin: 2rem 0 0 2rem;
+  width: 10rem;
+  height: 3rem;
+  border: 2px solid #333;
+  border-radius: 5px;
+  background: none;
+  cursor: pointer;
+}
+
+.button-div button:active {
+  transform: rotate(-1.5deg);
+  background-color: #ffffff;
+}
+
+.button-div p {
+  margin: 1rem 0 0 2rem;
+}
+
+.button-div p > span {
+  color: #9b2222;
+}
+
+input:invalid {
+  border: 2px dashed rgb(248, 115, 115);
+}
+
+input:invalid:required {
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 255, 255),
+    rgb(211, 211, 211)
+  );
+}
+
+input:valid {
+  border: 2px solid black;
+}
